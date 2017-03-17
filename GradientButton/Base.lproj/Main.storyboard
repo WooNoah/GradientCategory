@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LqG-5C-MtF">
+                                <rect key="frame" x="37" y="248" width="300" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="AGf-L3-bhQ"/>
+                                    <constraint firstAttribute="height" constant="44" id="nNC-xB-Otk"/>
+                                </constraints>
+                                <state key="normal" title="nib创建,背景为图片"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCk-Zo-A1K">
+                                <rect key="frame" x="37.5" y="328" width="300" height="44"/>
+                                <state key="normal" title="nib创建，使用category"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FYw-kO-kzE">
+                                <rect key="frame" x="37" y="392" width="300" height="44"/>
+                                <state key="normal" title="nib创建，使用category"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FYw-kO-kzE" firstAttribute="width" secondItem="XCk-Zo-A1K" secondAttribute="width" id="3ZU-qK-Vel"/>
+                            <constraint firstItem="LqG-5C-MtF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="228" id="53a-RX-02n"/>
+                            <constraint firstItem="XCk-Zo-A1K" firstAttribute="width" secondItem="LqG-5C-MtF" secondAttribute="width" id="9uq-y9-diH"/>
+                            <constraint firstItem="LqG-5C-MtF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LFG-vT-dHd"/>
+                            <constraint firstItem="XCk-Zo-A1K" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="M7f-Hv-NPU"/>
+                            <constraint firstItem="FYw-kO-kzE" firstAttribute="height" secondItem="XCk-Zo-A1K" secondAttribute="height" id="Ntf-L4-XIQ"/>
+                            <constraint firstItem="FYw-kO-kzE" firstAttribute="top" secondItem="XCk-Zo-A1K" secondAttribute="bottom" constant="20" id="WSF-Fg-3vS"/>
+                            <constraint firstItem="XCk-Zo-A1K" firstAttribute="top" secondItem="LqG-5C-MtF" secondAttribute="bottom" constant="36" id="e9f-Nd-22O"/>
+                            <constraint firstItem="FYw-kO-kzE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fs6-ol-Zd2"/>
+                            <constraint firstItem="XCk-Zo-A1K" firstAttribute="height" secondItem="LqG-5C-MtF" secondAttribute="height" id="qNF-PE-2qs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button3" destination="FYw-kO-kzE" id="Z6A-CB-u2K"/>
+                        <outlet property="testButton" destination="LqG-5C-MtF" id="38f-ef-Zdf"/>
+                        <outlet property="testButton2" destination="XCk-Zo-A1K" id="f3L-uE-1ir"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
