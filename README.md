@@ -1,0 +1,2 @@
+# GradientCategory
+使用category才实现gradient
