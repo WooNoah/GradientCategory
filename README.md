@@ -7,7 +7,7 @@
 各位看官如有发现什么bug，请批评指正！
 
 #### 效果图
-![](https://upload-images.jianshu.io/upload_images/1241385-66a2faoa30010ca2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/1241385-66a2fa0a30010ca2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #### 来看`.h`文件
 ```
